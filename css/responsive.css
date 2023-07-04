@@ -1,0 +1,57 @@
+@media only screen and (max-width: 768px) {
+    #phone-header  {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background-color: white;
+    }
+    .no-shadow {
+        box-shadow: none;
+        border: none;
+    }
+    #phone-menu {
+        display: none;
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        background-color: white;
+        width: 70%;
+        height: 100%;
+        box-shadow: 5px 5px 10px grey;
+    }
+    #phone-menu li {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 17px;
+    }
+
+    .fa-square-plus {
+        margin-left: -7px;
+    }
+
+    .fa-chevron-left {
+        margin-left: -7px;
+    }
+
+    .submenu {
+        display: none;
+    }
+
+    .submenu li {
+        background-color: #fffaf0;
+    }
+
+    .phone-logo {
+        height: 30px;
+        width: 50px;
+    }
+
+    .special-banner {
+        height: 100px;
+        width: 500px;
+    }
+
+    .card-title {
+        font-size: 14px;
+    }
+}
